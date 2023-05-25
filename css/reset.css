@@ -41,3 +41,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* 추가 내용 */
+* {
+	box-sizing: border-box;
+}
+a {
+    display: block;
+    text-decoration: none;
+	color: #333333;
+}
+img {
+    display: block;
+}
+input:matches([type="button"],[type="submit"], [type="reset"]), input[type="file"]::-webkit-file-upload-button, button {
+	color: #333333;
+}

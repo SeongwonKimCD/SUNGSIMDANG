@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성심당</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/ci.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="h_container">
+            <h1>
+                <a href="index.html" id="logo"><img src="images/TopLogo.svg" alt="성심당 로고"></a>
+            </h1>
+            <nav>
+                <ul class="navi">
+                    <li>
+                        <a href="about.html">성심당 소개</a>
+                        <ul class="submenu">
+                            <li><a href="about.html">회사 소개</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="ci.html">CI</a></li>
+                            <li><a href="#">성심당 이야기</a></li>
+                            <li><a href="#">재무제표</a></li>
+                            <li><a href="#">인재채용</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="eoc.html">성심당의 길</a>
+                        <ul class="submenu">
+                            <li><a href="eoc.html">EoC(모두를 위한 경제)</a></li>
+                            <li><a href="#">무지개 프로젝트</a></li>
+                            <li><a href="#">에코성심 프로젝트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="brand_1.html">성심당 브랜드</a>
+                    </li>
+                    <li>
+                        <a href="media.html">성심당 미디어 허브</a>
+                        <ul class="submenu">
+                            <li><a href="media.html">성심당 미디어</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </li>
+                    <li class="totalmenu_btn">
+                        <button class="menubtn">
+                            <img src="images/MenuBtn.svg" alt="전체 메뉴 버튼">
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="menu_modal">
+        <div class="modal_up">
+            <header>
+                <div class="h_container">
+                    <h1>
+                        <a href="index.html"><img src="images/TopLogo.svg" alt="성심당 로고"></a>
+                    </h1>
+                    <ul class="navi">
+                        <li class="totalmenu_btn close_btn">
+                            <button class="menubtn">
+                                <img src="images/CancelBtn.svg" alt="닫기">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="modal_left">
+                <ul>
+                    <li class="second_step">
+                        <a href="about.html">성심당 소개</a>
+                        <ul>
+                            <li>
+                                <a class="second_menu" href="about.html">회사 소개</a>
+                                <a class="second_menu" href="#">연혁</a>
+                                <a class="second_menu" href="ci.html">CI</a>
+                                <a class="second_menu" href="#">성심당 이야기</a>
+                                <a class="second_menu" href="#">재무제표</a>
+                                <a class="second_menu" href="#">인재채용</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="second_step">
+                        <a href="eoc.html">성심당의 길</a>
+                        <ul>
+                            <li>
+                                <a class="second_menu" href="eoc.html">EoC(모두를 위한 경제)</a>
+                                <a class="second_menu" href="#">무지개 프로젝트</a>
+                                <a class="second_menu" href="#">에코성심 프로젝트</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="brand_1.html">성심당 브랜드</a>
+                    </li>
+                    <li class="second_step">
+                        <a href="media.html">성심당 미디어 허브</a>
+                        <ul>
+                            <li>
+                                <a class="second_menu" href="media.html">성심당 미디어</a>
+                                <a class="second_menu" href="#">커뮤니티</a>
+                                <a class="second_menu" href="#">공지사항</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal_center">
+                <ul class="modal_sub menu_one">
+                    <li>
+                        <a href="about.html">회사 소개</a>
+                    </li>
+                    <li>
+                        <a href="#">연혁</a>
+                    </li>
+                    <li>
+                        <a href="ci.html">CI</a>
+                    </li>
+                    <li>
+                        <a href="#">성심당 이야기</a>
+                    </li>
+                    <li>
+                        <a href="#">재무제표</a>
+                    </li>
+                    <li>
+                        <a href="#">인재채용</a>
+                    </li>
+                </ul>
+                <ul class="modal_sub menu_two">
+                    <li>
+                        <a href="eoc.html">EoC(모두를 위한 경제)</a>
+                    </li>
+                    <li>
+                        <a href="#">무지개 프로젝트</a>
+                    </li>
+                    <li>
+                        <a href="#">에코성심 프로젝트</a>
+                    </li>
+                </ul>
+                <ul class="modal_sub menu_three">
+                    <li>
+                    </li>
+                </ul>
+                <ul class="modal_sub menu_four">
+                    <li>
+                        <a href="media.html">성심당 미디어</a>
+                    </li>
+                    <li>
+                        <a href="#">커뮤니티</a>
+                    </li>
+                    <li>
+                        <a href="#">공지사항</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal_right"></div>
+            <div class="modal_bottom">
+                <div class="modal_bottom_wrap">
+                    <div class="shopping">
+                        <a href="https://www.sungsimdangmall.co.kr/"><img src="images/shoppingmall.svg" alt="성심당 쇼핑몰">성심당 쇼핑몰</a>
+                    </div>
+                    <div class="snslist">
+                        <ul class="sns">
+                            <li class="instagram"><a href="https://www.instagram.com/sungsimdang_official/"><i class="fab fa-instagram"></i><span>인스타그램</span></a></li>
+                            <li class="facebook"><a href="https://www.facebook.com/sungsimdang4114"><i class="fab fa-facebook-square"></i><span>페이스북</span></a></li>
+                            <li class="youtube"><a href="https://youtube.com/@TV-cy2yp"><i class="fab fa-youtube"></i><span>유튜브</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="contentwrap">
+        <ul class="breadcrumb">
+            <li><a href="#" onclick="return false">홈</a></li>
+            <li>></li>
+            <li>성심당 소개</li>
+            <li>></li>
+            <li><span>CI</span></li>
+        </ul>
+        <h3 class="section_tt ci_tt">CI</h3>
+        <p class="content text_c">
+            1956년 창립 이후 대전과 함께한 성심당의 정체성을 담은 로고<br>
+            창업주의 예수성심에 대한 마음을 한자로 표현하였으며 거룩한 마음을 지니고 값진 노동으로 빵을 만들어 모든 이를 만나 이롭게 하고자 하는 본질을 담았다.
+        </p>
+        <div class="ci_wrap">
+            <img src="images/ci.png" alt="성심당 로고">
+        </div>
+        <div class="more_btn_wrap text_r">
+            <a class="more_btn" href="https://www.sungsimdang.co.kr/theme/responsive_sungsimdang/include/img/ci.zip">
+                CI 다운로드 <span class="material-symbols-rounded">download</span>
+            </a>
+        </div>
+    </section>
+    <div class="gray_bg">
+        <section class="contentwrap">
+            <h3 class="section_tt ci_tt">IDENTITY</h3>
+            <p class="content text_c">
+                성심당은 1956년 대전에 자리잡은 이후 역사를 이어오면서 끊임없이 회사의 정체성을 고민하고 경영이념과 비젼을 확립해 왔다.<br>성심당의 경영방식은 물론 전문 제과점으로서의 자부심, 대전 시민과 함께 상생해온 친근한 로컬기업으로써의 이미지까지 아이덴티티에서 모두 엿볼 수 있다.
+            </p>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">1970년대</p>
+                    <p class="content">
+                        70년대에는 대부분 포장지 제작업체에서 일반적인 도안을 했던 시기였다. 이때 성심당은 로고 개념을 도입하게 되었으며 곰이 들고있는 제품은 당시 판매하던 카스테라를 표현한 것이다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_1.png" alt="1970년대 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">1980년대 초반</p>
+                    <p class="content">
+                        가톨릭 십자가의 삼위일체의 형상과 성심당의 'S'를 함께 결합하여 디자인한 것이다. 그 당시 대부분의 제과점에서는 전통의 제과, 제과의 명당 이라는 표현을 사용했다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_2.png" alt="1980년대 초반 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">1980년대 중반</p>
+                    <p class="content">1980년대에는 우유식빵이 주요한 제품으로 옥수수식빵, 밤식빵, 보리빵 등 다양한 식빵들이 시판되기 시작했고 성심당은 이런 분위기를 디자인으로 표현했다. 당시 고칼로리가 강점이었기 때문에 로고와 캐릭터가 오동통 한 것을 알 수 있다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_3.png" alt="1980년대 중반 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">1990년대</p>
+                    <p class="content">1990년대로 넘어오면서 친근함을 주는 캐릭터는 과감히 삭제하고 브랜드명을 강조해 고객에게 신뢰감 있게 다가가고자 노력했다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_4.png" alt="1990년대 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">1992년 ~ 1994년</p>
+                    <p class="content">1F 블랑제리 드 사크레케어 / 2F 카페테리아 드 사크레케어 / B1 카페드 사크레케어<br>성심당이 레스토랑으로 확장되면서 유럽스타일의 제과점으로 브랜드 이름에 성심이라는 뜻의 프랑스어를 도입하여 초록사과의 이미지를 담았다. 그러나 정체성의 불분명으로 고객들로 하여금 사랑을 받지 못하고 이를 통해 성심당 스타일이 어떻게 가야 하는지 알게 되었다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_5.png" alt="1992년 ~ 1994년 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">1994년 ~ 1999년</p>
+                    <p class="content">매일 빵을 굽는 성심당 제품의 신선도를 강조한 디자인으로 패키지에 초록색 타원형을 삽입했다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_6.png" alt="1994년 ~ 1999년 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">1999년 ~ 2005년</p>
+                    <p class="content">일러스트가 디자인의 한 부분으로 사용되기 시작한 시기에 맞춰 정감있는 캐릭터를 로고에 표현하였다. 로쏘(rosso=red)주식회사로 법인화 되어 로고를 빨간색으로 표현했다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_7.png" alt="1999년 ~ 2005년 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">2005년 ~ 2012년</p>
+                    <p class="content">2005년 화재 이후 전문적인 제과점의 이미지를 살리기 위해 쉐프의 모습을 강조했다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_8.png" alt="2005년 ~ 2012년 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">2012년</p>
+                    <p class="content">2012년 대전역 입점을 기념하여 성심당의 정체성을 담은 로고를 개발했다. 예수성심에 대한 마음을 한자로 표현하였으며 거룩한 마음으로 빵을 만들고 고객을 만나는 것을 표현한 디자인이다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_9.png" alt="2012년 아이덴티티">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">2016년 창업 60주년 기념 엠블럼</p>
+                    <p class="content">초창기 성심당의 기와지붕을 형상화 한 디자인을 통해 도시를 사랑하고 도시 안에서 가치있는 기업으로써 자신의 몫을 다하고자 하는 의지를 표현했다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_10.png" alt="2016년 창업 60주년 기념 엠블럼">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">2017년 - 심블럼</p>
+                    <p class="content">마음‘심’ 심볼을 밀가루 반죽 형상의 테두리와 조합한 빈티지 느낌의 엠블럼. 밀가루 두 포대로 시작하여 어려운 이웃을 위해 빵을 나누어 온 초심 그대로 60년 동안 변함없이 사랑을 나누는 성심당의 큰 마음을 나타냈으며 성심당을 대표하는 뱃지로도 사용하고 있다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_11.png" alt="2017년 심블럼">
+                </div>
+            </div>
+            <div class="identity_sec">
+                <div class="identity_box">
+                    <p class="identity_tt">2017년 - 빵블럼</p>
+                    <p class="content">자연스러운 손 느낌 드로잉의 제빵모자와 가득 담긴 빵쟁반 모티브를 접목하여 1956년 이래 한결같은 정성으로 빵을 통해 사랑을 나누고 행복을 전하는 성심당의 소박한 마음을 담았다.
+                    </p>
+                </div>
+                <div class="identity_box">
+                    <img src="images/identity_12.png" alt="2017년 심블럼">
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer_wrap">
+            <div class="left">
+                <div class="bt_logo">
+                    <a href="index.html"><img src="images/Bt_Logo_W.svg" alt="하단 성심당 로고"></a>
+                </div>
+                <div class="footer_sec">
+                    <p><a href="#">이용약관</a><span style="margin: 0 7px;">|</span><a href="#">개인정보처리방침</a></p>
+                </div>
+                <div class="footer_sec">
+                    <p>로쏘 주식회사</p>
+                    <p><span>대표</span>임영진</p>
+                    <p><span>사업자등록번호</span>305-81-48738</p>
+                </div>
+                <div class="footer_sec">
+                    <p><span>주소</span>대전광역시 중구 대종로 480번길 15</p>
+                    <p><a class="tel" href="tel:1588-8069"><span>Tel</span>1588-8069</a></p>
+                </div>
+                <div class="footer_sec">
+                    <p><span>Fax</span>(042) 257-2984</p>
+                    <p><a class="email" href="mailto:superman@test.com"><span>E-mail</span>bread@sungsimdang.co.kr</a></p>
+                </div>
+                <p>COPYRIGHT© SUNG SIM DANG Co.,Ltd. ALL RIGHT RESERVED.</p>
+            </div>
+            <div class="right">
+                <p class="telnumber">
+                    1588-8069
+                </p>
+                <p class="time">
+                    문의시간 09:00 ~ 17:00
+                </p>
+                <ul class="sns">
+                    <li class="instagram"><a href="https://www.instagram.com/sungsimdang_official/"><i class="fab fa-instagram"></i><span>인스타그램</span></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/sungsimdang4114"><i class="fab fa-facebook-square"></i><span>페이스북</span></a></li>
+                    <li class="youtube"><a href="https://youtube.com/@TV-cy2yp"><i class="fab fa-youtube"></i><span>유튜브</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
