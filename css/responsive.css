@@ -301,6 +301,7 @@
 	.identity_sec .identity_tt {
 		padding-top: var(--base_lh);
 		font-size: 24px;
+		line-height: var(--base_lh);
 	}
 	.identity_sec .identity_box {
 		width: 100%;
