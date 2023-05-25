@@ -23,7 +23,6 @@ body {
     line-height: var(--base_lh);
     color: var(--base_fc);
     overflow-x: hidden;
-    letter-spacing: -0.03em;
 }
 
 /* Typography */
@@ -36,6 +35,7 @@ body {
 .banner_tt {
     font-weight: 700;
     font-size: 60px;
+    letter-spacing: 0.02em;
     line-height: calc(var(--base_lh) * 3);
     margin-bottom: var(--base_lh);
 }
@@ -45,9 +45,11 @@ body {
 .section_tt {
     font-weight: 500;
     font-size: 42px;
+    letter-spacing: 0.02em;
     line-height: calc(var(--base_lh) * 2);
     color: var(--base_fc);
     margin-bottom: 10px;
+    word-break: keep-all;
 }
 .section_tt span {
     color: var(--primary);
@@ -57,12 +59,14 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     font-size: var(--base_fs);
+    letter-spacing: 0.02em;
     line-height: var(--base_lh);
     margin-bottom: 50px;
 }
 .content_subtt {
     font-weight: 500;
     font-size: 22px;
+    letter-spacing: 0.02em;
     line-height: var(--base_lh);
     display: inline-block;
 }
@@ -70,6 +74,7 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     font-size: var(--base_fs);
+    letter-spacing: -0.03em;
     line-height: var(--base_lh);
     color: var(--base_fc);
     word-break: keep-all;
