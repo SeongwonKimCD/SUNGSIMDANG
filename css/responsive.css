@@ -447,6 +447,9 @@
 		bottom: 10px;
 		left: calc(50% - 30px);
 	}
+	.introduce_wrap .introduce_img img {
+		min-width: auto;
+	}
 	.tabmenu {
 		flex-wrap: wrap;
 	}
