@@ -23,7 +23,7 @@ header {
     display: inline-block;
 }
 .introduce_wrap .introduce_img img {
-    max-width: 357px;
+    min-width: 357px;
     width: 100%;
 }
 .introduce_wrap .introduce_img img:first-child {
